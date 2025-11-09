@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
-import { TransactionContext } from '../context/TransactionContext';
+import { TransactionContext } from '../context/TransactionContextDemo';
 
 const useFetchGif = (keyword) => {
     const [gifUrl, setGifUrl] = useState("");
